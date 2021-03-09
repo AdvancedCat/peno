@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "peno": ["packages/peno/src/index.ts"],
+            "peno-create-element": ["packages/peno-create-element/src/index.ts"]
+        },
+        "noUnusedParameters": true,
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "target": "esnext",
+        "module": "esnext",
+        "allowJs": false,
+        "moduleResolution": "node",
+        "preserveConstEnums": true,
+        "outDir": "build",
+        "sourceMap": false,
+        "lib": ["es6", "dom"],
+        "jsx": "preserve",
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "alwaysStrict": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "removeComments": false,
+        "experimentalDecorators": false,
+        "rootDir": "."
+    },
+    "include": ["packages/*/src", "packages/*/__tests__"]
+}
