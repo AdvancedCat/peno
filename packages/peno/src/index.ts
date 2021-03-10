@@ -1,5 +1,7 @@
-const name = 'hongxin'
+const name = 'peno'
 
-export {
-    name
+function test() {
+  return 'hello world'
 }
+
+export { name, test }

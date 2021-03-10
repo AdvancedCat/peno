@@ -1,2 +1,2 @@
-const name = 'pen-create-element'
-export {name}
+const name = 'peno-create-element'
+export { name }
