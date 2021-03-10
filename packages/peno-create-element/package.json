@@ -9,5 +9,8 @@
   "author": "advancedcat",
   "license": "MIT",
   "devDependencies": {
+  },
+  "rollup": {
+    "moduleName": "Peno"
   }
 }
