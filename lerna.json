@@ -6,6 +6,10 @@
   "command": {
     "bootstrap": {
       "npmClientArgs": ["--no-package-lock"]
+    },
+    "publish": {
+      "noPush": true,
+      "noGitTagVersion": true
     }
   }
 }
